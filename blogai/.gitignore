@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+*.env
+*.env.*
+venv*/
+feature1/feature1_transcription/venv310/
+
+
+# Django
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+
+# FastAPI / general API
+*.db
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+~/.cache/huggingface/
+.cache/
+*.ckpt
+
+# PyTorch / Whisper
+*.pt
+*.pth
+*.bin
+
+# Transcribed audio artifacts
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.webm
+*.srt
+*.tsv
+*.jsonl
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs/output
+logs/
+*.log
+output.json
+result.json
