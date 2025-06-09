@@ -183,8 +183,8 @@ print(response.json())
 ### 1. Clone & Setup
 
 ```bash
-git clone https://github.com/<your-username>/ai-interview-assessment.git
-cd ai-interview-assessment
+git clone https://github.com/rithiksai/ai-transcription-titlegen.git
+
 ```
 
 ### 2. Environment Setup
@@ -256,18 +256,6 @@ uvicorn app:app --reload --port 8001
 
 ## 🧪 Testing
 
-### Automated Tests
-
-```bash
-# Run Django tests
-cd blogai
-python manage.py test
-
-# Run FastAPI tests
-cd feature1_transcription
-pytest tests/
-```
-
 ### Manual Testing
 
 1. **Audio Transcription**: Use the interactive docs at `http://127.0.0.1:8001/docs`
@@ -295,25 +283,6 @@ pytest tests/
 - **Memory Usage**: 500MB-1GB
 - **Input Limit**: 2000 characters
 - **Languages**: Primarily English
-
----
-
-## 🛠️ Development
-
-### Adding New Features
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open Pull Request
-
-### Code Style
-
-- Follow PEP 8 for Python code
-- Use type hints where applicable
-- Add docstrings for functions and classes
-- Format with Black: `black .`
 
 ---
 
